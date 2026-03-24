@@ -1,0 +1,18 @@
+{
+  "name": "attair-fleet-reliability-report",
+  "version": "1.0.0",
+  "description": "ATTAIR CAMO Fleet-Level Reliability Report Generator — CAME Part 5 RCP Issue 2 Rev 0",
+  "main": "generate-fleet-report.js",
+  "scripts": {
+    "generate": "node generate-fleet-report.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0",
+    "exceljs": "^4.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "ISC"
+}
